@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body{
+  background-color: lightpurple;
+}
+
+
+h1{
+  font-family: 'Seymour One', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+.header{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: Impact;
+}
+
+ /* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-image: linear-gradient(to right,purple, violet);
+  font-family: Impact;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative; left:230px; 
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: mediumorchid;
+  color: black;
+}
