@@ -13,6 +13,24 @@ h1{
   font-family: 'Seymour One', sans-serif;
 }
 
+.kristal{
+width: 300px;
+}
+
+.profilepageproject{
+  width: 400px;
+}
+
+.favoritefoodproject{
+  width: 500px;
+}
+.characterproject{
+  width: 400px;
+}
+.interactiveproject{
+  width: 400px;
+}
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -43,11 +61,20 @@ ul {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  position: relative; left:230px; 
+  position: relative; left:755px; 
 }
 
 /* Links - change color on hover */
 .topnav a:hover {
   background-color: mediumorchid;
   color: black;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
 }
