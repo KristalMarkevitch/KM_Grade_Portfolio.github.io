@@ -12,23 +12,33 @@ body{
 h1{
   font-family: 'Seymour One', sans-serif;
 }
-
+.projectnumber{
+  color: black;
+  font-family: 'Seymour One', sans-serif;
+}
+.description{
+  font-family: 'Seymour One', sans-serif;
+}
 .kristal{
 width: 300px;
 }
 
 .profilepageproject{
-  width: 400px;
+  width: 500px;
+  height: 300px;
 }
 
 .favoritefoodproject{
-  width: 500px;
+  width: 450px;
+  height: 300px;
 }
 .characterproject{
   width: 400px;
+  height: 300px;
 }
 .interactiveproject{
-  width: 400px;
+  width: 500px;
+  height: 300px;
 }
 }
 ul {
