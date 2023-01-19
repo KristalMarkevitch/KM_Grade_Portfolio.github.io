@@ -20,7 +20,8 @@ h1{
   font-family: 'Seymour One', sans-serif;
 }
 .kristal{
-width: 300px;
+width: 400px;
+border-radius: 60%;
 }
 
 .profilepageproject{
@@ -88,3 +89,7 @@ ul {
   flex: 50%;
   padding: 5px;
 }
+
+ .kristal:hover {
+    transform: scale(1.5, 1.5);
+    }
